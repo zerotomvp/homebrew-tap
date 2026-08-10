@@ -1,26 +1,26 @@
 class Parley < Formula
   desc "Durable, role-addressed messaging for independent agent sessions"
   homepage "https://github.com/zerotomvp/parley-cli"
-  version "2.1.0"
+  version "2.1.1"
   license "GPL-3.0-only"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/zerotomvp/parley-cli/releases/download/v2.1.0/parley-2.1.0-osx-arm64.tar.gz"
-      sha256 "a66a584b136f7330acf7f87b5d92f716142d1be5dd14a75270ac2997a54e8c24"
+      url "https://github.com/zerotomvp/parley-cli/releases/download/v2.1.1/parley-2.1.1-osx-arm64.tar.gz"
+      sha256 "4071a2d21cef6a31c6c400638bd269fb07e21b1a3c39bae3dc5201a1e68829a0"
     else
-      url "https://github.com/zerotomvp/parley-cli/releases/download/v2.1.0/parley-2.1.0-osx-x64.tar.gz"
-      sha256 "6ec143d0639f85dc730a39415c3aa34ed9195f82d356b93bb01f551ebbcd0906"
+      url "https://github.com/zerotomvp/parley-cli/releases/download/v2.1.1/parley-2.1.1-osx-x64.tar.gz"
+      sha256 "6be5638cfa584ec9d15513c41f7d74418d7367569df295dd2f2f9d1f55fb3c43"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/zerotomvp/parley-cli/releases/download/v2.1.0/parley-2.1.0-linux-arm64.tar.gz"
-      sha256 "ba27cdb3746003c6b2de6ab584c2fd0b3de4daa73f3cb8774349d19467d9707a"
+      url "https://github.com/zerotomvp/parley-cli/releases/download/v2.1.1/parley-2.1.1-linux-arm64.tar.gz"
+      sha256 "9087ababbc641332c67e647bf18a349f545ee6bd0959ef8086a1080179f7a442"
     else
-      url "https://github.com/zerotomvp/parley-cli/releases/download/v2.1.0/parley-2.1.0-linux-x64.tar.gz"
-      sha256 "553be44d36c6d235bd0ea6c70a8df44c8e68108859b243e7f167d319632f2c44"
+      url "https://github.com/zerotomvp/parley-cli/releases/download/v2.1.1/parley-2.1.1-linux-x64.tar.gz"
+      sha256 "980e8592b56e368104b45cc642fe027e66811df22c0b22386fa4109a89ae03b8"
     end
   end
 
